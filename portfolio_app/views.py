@@ -8,18 +8,18 @@ def index(request):
     return render(request,'portfolio_app/index.html',{})
 
 
-def education(request):
-    return render(request,'portfolio_app/education.html',{})
+# def education(request):
+#     return render(request,'portfolio_app/education.html',{})
 
 
-def projects(request):
-    return render(request,'portfolio_app/projects.html',{})
+# def projects(request):
+#     return render(request,'portfolio_app/projects.html',{})
 
 
-def skills(request):
-    return render(request,'portfolio_app/skills.html',{})
+# def skills(request):
+#     return render(request,'portfolio_app/skills.html',{})
 
-def interests(request):
-    return render(request,'portfolio_app/interests.html',{})
+# def interests(request):
+#     return render(request,'portfolio_app/interests.html',{})
 
 
