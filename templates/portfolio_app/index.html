@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% extends 'portfolio_app/base.html' %}
+{% load static %}
+{% block body_block %}
+   <!-- Page Content-->
+   <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+        <div class="resume-section-content">
+            <h1 class="mb-0">
+                Vishnu Priya
+                <span class="text-primary">T.S</span>
+            </h1>
+            <div class="subheading mb-5">
+                110 Krishnan Street · Pillayar Palayam · Kanchipuram-631 501 · (91)9791403080 ·
+                <a href="mailto:vishnupriya0913@email.com">vishnupriya0913@email.com</a>
+            </div>
+            <p class="lead mb-5">To utilize my communication skills, fresh thoughts, and
+                assertive behavior to accept challenges and benefit the
+                organization.</p>
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/vishnu-priya-t-s"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/vishnupriyats"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://www.hackerrank.com/Vishnupriya_"><i class='fab fa-hackerrank'></i></a>
+                <!-- <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> -->
+            </div>
+
+            <hr/>
+            <a class='btn btn-primary' href="{% url 'portfolio_app:download'%}">Resume <i class="fa fa-download" aria-hidden="true"></i></a>
+        </div>
+        
+    </section>
+
+    
+    <hr class="m-0" />
+    </div>
+   {% endblock %} 
