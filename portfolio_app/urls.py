@@ -12,5 +12,4 @@ urlpatterns = [
     # path('skills/',views.skills,name='skills'),
     # path('interests/',views.interests,name='interests'),
     
-
 ]

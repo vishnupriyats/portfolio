@@ -10107,6 +10107,10 @@ p.lead {
   font-size: 3rem;
 }
 
+.checker {
+   
+  color: #bd5d38;
+}
 section.resume-section {
   display: flex;
   align-items: center;
